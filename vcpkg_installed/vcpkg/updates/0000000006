@@ -1,0 +1,8 @@
+Package: d3dx12
+Version: may2021
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 47b495d7e25b02cb005610a4fe0c4e1cad1f267bf73c37fede89dcd713ca9021
+Description: The D3D12 Helper Library
+Status: install ok half-installed
