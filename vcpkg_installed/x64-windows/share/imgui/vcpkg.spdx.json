@@ -1,0 +1,197 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/imgui-x64-windows-1.91.5-d3dd948b-4e6d-4b26-9faa-eafe39b7916a",
+  "name": "imgui:x64-windows@1.91.5 060f66e0d5a03f145d488f3766468b110e750fe84e060080699e5feb30ad2366",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-12-09-1005b78fa1bf1dde1a20c2734cba4ea61ca94d9a"
+    ],
+    "created": "2024-12-24T03:22:06Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "imgui",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.91.5",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/ocornut/imgui",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "imgui:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "060f66e0d5a03f145d488f3766468b110e750fe84e060080699e5feb30ad2366",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "ocornut/imgui",
+      "downloadLocation": "git+https://github.com/ocornut/imgui@v1.91.5-docking",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "2864672d3b08caf3396f69affe1b83d7977d2300f571864378ebe5b4a1a1b5634e6e171c8870444b7f8947fdc681aeaf07f59b25a290c94059d36226fc7e1aad"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "ocornut/imgui",
+      "downloadLocation": "git+https://github.com/ocornut/imgui@v1.91.5",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "85ced14d0c4c3506caf0cff5897dc2c49521fe6de5bcadbc1107e2b63d6bd9a19f967960ba31206187fc2c830246f635e8f2b29b0b1ff522be209dd2a5349529"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-resource-2",
+      "name": "ocornut/imgui_test_engine",
+      "downloadLocation": "git+https://github.com/ocornut/imgui_test_engine@v1.91.5",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b18d64732629f01eb4153c7f7dbc2184d7ad1d63d0dc1b4f42120209c673f20ebc202bf7bc6ab27ae1a23a9437d40cc9f77c3e100e0e6de3ed6eb0087c41b7a4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-resource-3",
+      "name": "imgui_fonts_droid_sans.h",
+      "packageFileName": "imgui_fonts_droid_sans.h",
+      "downloadLocation": "https://raw.githubusercontent.com/libigl/libigl-imgui/c3efb9b62780f55f9bba34561f79a3087e057fc0/imgui_fonts_droid_sans.h",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "abe9250c9a5989e0a3f2285bbcc83696ff8e38c1f5657c358e6fe616ff792d3c6e5ff2fa23c2eeae7d7b307392e0dc798a95d14f6d10f8e9bfbd7768d36d8b31"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./D:/git-homework/vcpkg/ports/imgui/CMakeLists.txt",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "469172229e8a2e6ddb00105c4a764fa452ab143d21edd0b30cea589bf0b75191"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/git-homework/vcpkg/ports/imgui/imgui-config.cmake.in",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2a441c1709b0ec7c0de1f403944ba5b8d8c059c02adcea9f8550bf33303eb7bb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/git-homework/vcpkg/ports/imgui/portfile.cmake",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3f61b7e74651b4888e7063d034eea530256717aa7b8d990f26a7df8dd45c9d41"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/git-homework/vcpkg/ports/imgui/vcpkg.json",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4b27193868107f4a0f0cba843022b9d2f981ef6958a2b9830b6b276d84a0f56e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

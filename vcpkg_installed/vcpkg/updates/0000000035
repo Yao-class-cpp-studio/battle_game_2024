@@ -1,0 +1,8 @@
+Package: glslang
+Version: 15.1.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b6bccda78a1a64efbaaa55a86b7da4f5efba13e2234c8bdaa7d902c756abb2c6
+Description: Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.
+Status: install ok installed

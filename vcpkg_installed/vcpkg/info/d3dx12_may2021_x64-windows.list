@@ -1,0 +1,8 @@
+x64-windows/
+x64-windows/include/
+x64-windows/include/d3dx12.h
+x64-windows/share/
+x64-windows/share/d3dx12/
+x64-windows/share/d3dx12/copyright
+x64-windows/share/d3dx12/vcpkg.spdx.json
+x64-windows/share/d3dx12/vcpkg_abi_info.txt

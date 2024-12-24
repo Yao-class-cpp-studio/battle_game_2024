@@ -1,0 +1,126 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/d3dx12-x64-windows-may2021#1-54278cdc-b927-426a-972e-96f7239d1677",
+  "name": "d3dx12:x64-windows@may2021#1 47b495d7e25b02cb005610a4fe0c4e1cad1f267bf73c37fede89dcd713ca9021",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-12-09-1005b78fa1bf1dde1a20c2734cba4ea61ca94d9a"
+    ],
+    "created": "2024-12-24T03:13:59Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "d3dx12",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "may2021#1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://docs.microsoft.com/en-us/windows/win32/direct3d12/helper-structures-and-functions-for-d3d12",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "The D3D12 Helper Library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "d3dx12:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "47b495d7e25b02cb005610a4fe0c4e1cad1f267bf73c37fede89dcd713ca9021",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "directx-vs-templates-${VERSION}-d3dx12.h",
+      "packageFileName": "directx-vs-templates-${VERSION}-d3dx12.h",
+      "downloadLocation": "https://raw.githubusercontent.com/walbourn/directx-vs-templates/${VERSION}/d3d12game_win32_dr/d3dx12.h",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "b053a8e6593c701a0827f8a52f20e160070b8b71242fd60a57617e46b87e909e11f814fc15b084b4f83b7ff5b9a562280da64a77cee3a171ef17839315df4245"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "directx-vs-templates-${VERSION}-LICENSE",
+      "packageFileName": "directx-vs-templates-${VERSION}-LICENSE",
+      "downloadLocation": "https://raw.githubusercontent.com/walbourn/directx-vs-templates/${VERSION}/LICENSE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ce7d8ec7bfb58ef36a95b20f6f0fc4e3cd4923bb3ac6bd1f62e8215df2ee83d2a594ce84b15951310f05a819a0370468af781e73a10e536d23965421466851f4"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./D:/git-homework/vcpkg/ports/d3dx12/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5faf8326f2bf86dd36f4a47b3701bd78217ae9cca2ad46a4ca867738c1487671"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./D:/git-homework/vcpkg/ports/d3dx12/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5820fe1ffda93f05b1fbd5f79697380bf87f708f1c04bd29ef1e094b08b4450f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
